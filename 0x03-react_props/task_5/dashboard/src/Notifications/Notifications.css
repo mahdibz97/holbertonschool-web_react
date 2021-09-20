@@ -1,0 +1,28 @@
+.notification-section {
+  height: 300px;
+}
+.Notifications {
+    border: 1px dashed #d73953;
+    padding: 15px;
+    font-size: 27px;
+    width: 30%;
+    float: right;
+    top: 60px;
+    left: 200px;
+}
+[data-notification-type= "default"] {
+  color: blue;
+}
+ [data-notification-type="urgent"] {
+   color: red;
+ }
+
+ div.menuItem {
+     font-size: larger;
+     margin: 30px;
+     margin-right: 50px;
+     text-align: end;
+ }
+.Notifications button {
+  top: 95px !important;
+}

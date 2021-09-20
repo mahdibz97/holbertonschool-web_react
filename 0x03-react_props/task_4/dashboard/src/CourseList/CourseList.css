@@ -1,0 +1,13 @@
+#CourseList {
+  border: 1px solid lightgrey;
+	margin: 20px auto;
+	width: 90%;
+}
+
+#CourseList thead > tr > th {
+	border-bottom: 2px solid lightgrey;
+}
+
+#CourseList th:not(#first-th) {
+  text-align: start;
+}
